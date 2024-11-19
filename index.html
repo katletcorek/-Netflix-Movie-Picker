@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎥Random Netflix Movie Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="headerTitle">🎥Random Netflix Movie Picker</h1>
+
+        <div>
+            <label for="languageSelect">Choose Language:</label>
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="ru">Russian</option>
+                <option value="es">Spanish</option>
+                <option value="tr">Turkish</option>
+                <option value="fr">French</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="genre">Choose a genre:</label>
+            <select id="genre">
+                <option value="">--Select Genre--</option>
+            </select>
+        </div>
+
+        <button id="pickMovieBtn">Pick a Movie</button>
+
+        <div id="movieDetails">
+            <h2 id="movieTitle">Movie Title</h2>
+            <p id="movieDescription">Description</p>
+            <p id="movieYear">Release Year</p>
+            <p id="movieRating">Rating</p>
+        </div>
+    </div>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
